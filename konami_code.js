@@ -17,11 +17,11 @@ function init() {
   document.body.addEventListener("keydown", (e) => {
     const key = e.key
     
-    idx = (codes[idx] === key) ? ++idx : 0
+    index = (codes[index] === key) ? ++index : 0
     
-    if (idx === codes.length) {
+    if (index === codes.length) {
       window.alert("Hurray!");
-      idx = 0
+      index = 0
     }
     
   });
