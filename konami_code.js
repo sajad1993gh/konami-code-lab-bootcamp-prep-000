@@ -24,8 +24,6 @@ function init() {
       alert("Hurray!");
       index = 0;
     }
-    else{
-      index = 0;
-    }
+    
   });
 }
