@@ -1,4 +1,4 @@
-const codes = [
+const alphabet = [
   "ArrowUp",
   "ArrowUp",
   "ArrowDown",
